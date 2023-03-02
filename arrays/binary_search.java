@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class binary_search {
+
+    
     public static int BinarySearch(int array[],int fi,int li,int key){
         int middle;
         if(fi<=li){

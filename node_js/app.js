@@ -1,7 +1,11 @@
-const amount = 12
+//Modules  (encapsulated code --> sharing only what we need )
 
-if (amount>10) {
-    console.log("grater number")
-} else {
-    console.log("small number")
-}
+
+
+const name = require('./names');        //require is used to access export
+const sayHi = require('./utils')
+console.log(name);
+
+sayHi("Vibhu")
+sayHi(name.name1)
+sayHi(name.name2)
