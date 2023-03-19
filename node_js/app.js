@@ -1,11 +1,7 @@
-//Modules  (encapsulated code --> sharing only what we need )
+const {readFileSync,writeFileSync} = require('fs');
 
-
-
-const name = require('./names');        //require is used to access export
-const sayHi = require('./utils')
-console.log(name);
-
-sayHi("Vibhu")
-sayHi(name.name1)
-sayHi(name.name2)
+const first = readFileSync('./content/first.txt','utf8');
+console.log(first);
+const second = readFileSync('./content/second.txt','utf8');
+console.log(second);
+writeFileSync('./content/result-sync.txt',`This is the result:\n${first}\n${second}`)
