@@ -10,9 +10,10 @@ public class selection_sort {
         System.out.println("Enter the elements: ");
         for(i = 0;i<n;i++){
             a[i] = sc.nextInt();
+            sc.close();
         }
         
-    
+        
  
     for(i=0;i<n-1;i++)
     {
@@ -35,5 +36,7 @@ public class selection_sort {
     for(i = 0;i<n;i++){
         System.out.println(a[i]);
     }
+    
     }
+    
 }

@@ -18,5 +18,6 @@ public class linear_search {
             j++;
         }
         System.out.print("Element found at index "+j+"\n");
+        sc.close();
     }
 }

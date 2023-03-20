@@ -36,5 +36,6 @@ public class insertionSort {
             System.out.print(a[i] + " ");
  
         System.out.println();
+        sc.close();
     }
 }

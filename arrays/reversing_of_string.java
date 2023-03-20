@@ -18,5 +18,6 @@ public class reversing_of_string {
         String word = sc.nextLine();
         
         printrev(word,word.length()-1);
+        sc.close();
     }
 } 

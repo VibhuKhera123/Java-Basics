@@ -35,5 +35,6 @@ public class BubbleSort {
             System.out.print(a[i] + " ");
         }
         System.out.println("\n");
+        sc.close();
     }
 }
