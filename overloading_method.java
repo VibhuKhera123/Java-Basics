@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class overloading_method {
     public static void main(String[] args) {

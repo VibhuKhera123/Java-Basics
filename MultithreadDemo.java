@@ -15,7 +15,7 @@ public class MultithreadDemo {
                 int i=0;
                 while (i<5) {
                     sleep(1000);
-                    System.out.println("Good morning ");
+                    System.out.println("Hello ");
                     i++;
             }
             } catch (Exception e) {
@@ -28,9 +28,9 @@ public class MultithreadDemo {
             try {
                 int i=0;
                 while (i<5) {
-                sleep(2000);
-                System.out.println("hello");
-                i++;
+                    sleep(2000);
+                    System.out.println("How are you?");
+                    i++;
                 }
             } catch (Exception e) {
                 System.out.println(e.toString());
@@ -43,7 +43,7 @@ public class MultithreadDemo {
                 int i=0;
                 while (i<5) {
                 sleep(3000);
-                System.out.println("welcome");
+                System.out.println("Welcome to java");
                 i++;
                 }
             } catch (Exception e) {
